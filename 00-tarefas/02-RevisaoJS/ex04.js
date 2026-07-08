@@ -6,3 +6,5 @@
 // nota2
 
 // Calcule a média e mostre no console
+
+
