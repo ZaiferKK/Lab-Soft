@@ -15,3 +15,14 @@
 // 18,5 a 24,9 kg/m²: peso normal
 // 25 a 29,9 kg/m²: sobrepeso
 // 30 kg/m² ou mais: obesidade
+let temperatura= 20
+if (temperatura <15){
+    console.log ("frio")
+}
+else if (temperatura>=15 && temperatura <28 ){
+    console.log("agradavel")
+}
+else {
+    console.log("muito quente")
+}
+
