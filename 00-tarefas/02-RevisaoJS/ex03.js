@@ -14,6 +14,4 @@ let produto = "Salame";
 let preco = 25;
 let quantidade = 2000;
 
-console.log(
-    `meu $(produto) custa$(preco) e temos $(quantidade) no estoque`
-);
+console.log(`meu ${produto} custa ${preco} e temos ${quantidade} no estoque`);
