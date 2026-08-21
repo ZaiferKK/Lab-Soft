@@ -53,9 +53,15 @@ rl.question("Digite seu modificador de ataque: ", (modificador) => {
     dificuldade = Number(dificuldade);
 
     // REALIZE O EXERCÍCIO AQUI 🔽
-
-
-
+let damage = valorDado + modificador
+if (damage > dificuldade){
+  console.log(`Acertou! Ataque deu 10 de dano
+    Vida do Dragão: 0`)
+}
+else if(damage < dificuldade){
+  console.log(`Errou!
+    Vida do dragão: 10`)
+}
     rl.close();
   });
 });

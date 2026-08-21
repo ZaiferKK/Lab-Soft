@@ -48,7 +48,29 @@ rl.question("Digite a primeira carta do jogador: ", (j1) => {
     j2 = Number(j2);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+let final = j1 + j2
+let dealer = dealer1 + dealer2
 
+if(final > dealer && final < 21){
+  console.log(`Cartas do jogador ${j1} e ${j2} resultado ${final}
+    Cartas do dealer ${dealer1} e ${dealer2} resultado ${dealer}
+    Você venceu`)
+}
+else if (final < dealer){
+  console.log(`Cartas do jogador ${j1} e ${j2} resultado ${final}
+    Cartas do dealer ${dealer1} e ${dealer2} resultado ${dealer}
+    Você perdeu`)
+}
+else if(final > 21) {
+console.log(`Cartas do jogador ${j1} e ${j2} resultado 0
+    Cartas do dealer ${dealer1} e ${dealer2} resultado ${dealer}
+    Você estourou`)
+}
+else if(final < dealer && final < 21){
+  console.log(`Cartas do jogador ${j1} e ${j2} resultado ${final}
+    Cartas do dealer ${dealer1} e ${dealer2} resultado 0
+    Ele perdeu`)
+}
     rl.close();
   });
 });

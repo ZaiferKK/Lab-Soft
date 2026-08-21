@@ -32,9 +32,15 @@ rl.question("Digite o resultado do primeiro dado: ", (dadoUm) => {
     dadoDois = Number(dadoDois);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
-
-
-
+let dadoFinal = dadoUm + dadoDois
+let dadoDuplo
+if(dadoUm == dadoDois){
+  dadoDuplo = dadoFinal * 2
+  console.log(`Resultado é ${dadoDuplo}`)
+}
+else{
+  console.log(`Resultado é ${dadoFinal}`)
+}
     rl.close();
   });
 });

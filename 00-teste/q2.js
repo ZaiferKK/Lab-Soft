@@ -31,6 +31,26 @@ rl.question("Digite um número: ", (numero) => {
   numero = Number(numero);
 
   //REALIZE O EXERCÍCIO AQUI 🔽
-
+  if(numero == 1){
+    console.log(`Um`);
+  }
+   else if(numero == 2){
+    console.log(`Dois`);
+  }
+  else if(numero == 3){
+    console.log(`Tres`);
+  } 
+   else if(numero == 4){
+    console.log(`Quatro`);
+  } 
+   else if(numero == 5){
+    console.log(`Cinco`);
+    }
+      else if(numero >5){
+    console.log(`Fora do escopo, grande de mais.`);
+    }
+    else{
+      console.log(`Fora do escopo, pequeno demais.`)
+    }
   rl.close();
 });

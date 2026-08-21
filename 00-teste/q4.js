@@ -56,7 +56,7 @@ rl.question("Digite o valor da compra em centavos: ", (a) => {
   rl.question("Digite a qualidade do serviço: ", (b) => {
     a = Number(a);
     b = Number(b);
-
+ 
     //REALIZE O EXERCÍCIO AQUI 🔽
 
     rl.close();
