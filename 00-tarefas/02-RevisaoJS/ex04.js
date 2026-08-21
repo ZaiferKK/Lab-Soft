@@ -7,4 +7,7 @@
 
 // Calcule a média e mostre no console
 
-
+let nota = 10;
+let nota2 = 7;
+let media = (nota+nota2)/2;
+console.log(media);
