@@ -1,6 +1,6 @@
 // Configurações do teste
-const TAMANHO_ARRAY = 10;
-const IMPRIMIR_ITERACOES = true;
+const TAMANHO_ARRAY = 100000;
+const IMPRIMIR_ITERACOES = false;
 
 const arrayAleatorio = Array.from({ length: TAMANHO_ARRAY }, () =>
   Math.floor(Math.random() * 100),
